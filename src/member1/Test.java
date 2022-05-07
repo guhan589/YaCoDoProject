@@ -1,4 +1,4 @@
-package member2;
+package member1;
 
 import common.Review;
 
@@ -7,7 +7,7 @@ public class Test {
         Class aClass;
         {
             try {
-                aClass = Class.forName("member2.Test");
+                aClass = Class.forName("member1.Test");
                 Review review = Review.getInstance();
                 review.show(aClass.getPackageName());
 
