@@ -1,8 +1,7 @@
-package member1.level1;
+package member1.level1_1;
 
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class ReceivingReportResults {
     /**
@@ -37,7 +36,6 @@ public class ReceivingReportResults {
         /**
          * 1. 먼저 신고한 사람들의 목록 list를 담고 있어야함
          * 2. 신고당한 사람들의 횟수를 담는 map을 가지고 있어야함*/
-//        List<String> list = new ArrayList<>();
         for (String s : collect) {
             String[] split_str = s.split(" ");
 
