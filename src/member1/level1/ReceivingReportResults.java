@@ -20,7 +20,8 @@ public class ReceivingReportResults {
 
 
         int[] solution = solution(id_list, report, k);
-        for (int i : solution) {
+        for (int i : solution)
+        {
             System.out.println("i = " + i);
         }
 
