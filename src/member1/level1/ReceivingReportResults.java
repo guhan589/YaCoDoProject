@@ -5,8 +5,7 @@ import java.util.stream.Collectors;
 
 public class ReceivingReportResults {
     /**
-     * 문제 출처:프로그래머스
-     * 난이도: LEVEL1
+     * 난이도 : 1
      * 문제명: 신고결과받기
      * */
     public static void main(String[] args) {
